@@ -28,8 +28,8 @@ function transform(arr) {
       }
 
       if (arr[i] == "--discard-next" && arr[i + 2] == "--double-prev"){
-        arr.splice(i, 2);
-        break
+        arr.splice(i, 3)
+        continue
       }
 
         if (arr[i] == "--double-next") {
